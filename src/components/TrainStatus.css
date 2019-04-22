@@ -1,0 +1,78 @@
+.results-group {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 125%;
+}
+
+.train-line {
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+}
+
+span::before {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.line-RD {
+  background-color: #BF0D3E;
+  color: #ffffff;
+}
+
+.line-RD::before {
+  content: "RD";
+}
+
+.line-OR {
+  background-color: #ED8B00;
+  color: #000000;
+}
+
+.line-OR::before {
+  content: "OR";
+}
+
+.line-BL {
+  background-color: #009CDE;
+  color: #ffffff;
+}
+
+.line-BL::before {
+  content: "BL";
+}
+
+.line-GR {
+  background-color: #00B140;
+  color: #ffffff;
+}
+
+.line-GR::before {
+  content: "GR";
+}
+
+.line-YL {
+  background-color: #FFD100;
+  color: #000000;
+}
+
+.line-YL::before {
+  content: "YL";
+}
+
+.line-SV {
+  background-color: #919D9D;
+  color: #000000;
+}
+
+.line-SV::before {
+  content: "SV";
+}
