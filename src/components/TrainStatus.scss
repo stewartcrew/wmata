@@ -1,6 +1,13 @@
+
+$red: #BF0D3E;
+$orange: #ED8B00;
+$blue: #009CDE;
+$yellow: #919D9D;
+$green: #00B140;
+$silver: #919D9D;
+
+
 .results-group {
-  margin-top: 30px;
-  margin-bottom: 30px;
   line-height: 125%;
 }
 
@@ -12,6 +19,7 @@
   margin-right: 5px;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: .9rem;
   position: relative;
 }
 
@@ -24,7 +32,7 @@ span::before {
 }
 
 .line-RD {
-  background-color: #BF0D3E;
+  background-color: $red;
   color: #ffffff;
 }
 
@@ -33,7 +41,7 @@ span::before {
 }
 
 .line-OR {
-  background-color: #ED8B00;
+  background-color: $orange;
   color: #000000;
 }
 
@@ -42,7 +50,7 @@ span::before {
 }
 
 .line-BL {
-  background-color: #009CDE;
+  background-color: $blue;
   color: #ffffff;
 }
 
@@ -51,7 +59,7 @@ span::before {
 }
 
 .line-GR {
-  background-color: #00B140;
+  background-color: $green;
   color: #ffffff;
 }
 
@@ -60,7 +68,7 @@ span::before {
 }
 
 .line-YL {
-  background-color: #FFD100;
+  background-color: $yellow;
   color: #000000;
 }
 
@@ -69,7 +77,7 @@ span::before {
 }
 
 .line-SV {
-  background-color: #919D9D;
+  background-color: $silver;
   color: #000000;
 }
 
