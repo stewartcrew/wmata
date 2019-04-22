@@ -25,7 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>Which station are you interested in?</h2>
+        <h4>Which station are you interested in?</h4>
         <Form getTrainStatus={this.getTrainStatus} />
         <TrainStatus trains={this.state.trains} locationName={this.state.locationName} />
       </div>
