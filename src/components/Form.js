@@ -3,8 +3,10 @@ import React from 'react';
 class Form extends React.Component {
   render() {
     return(
+      <div>
+      <p>{this.props.stationId}</p>
       <form onSubmit={this.props.getTrainStatus}>
-        <select name="station" >
+        <select name="station" value={this.props.stationID} >
           <option value="G03">Addison Road-Seat Pleasant</option>
           <option value="F06">Anacostia</option>
           <option value="F02">Archives-Navy Memorial-Penn Quarter</option>
@@ -100,6 +102,7 @@ class Form extends React.Component {
         </select>
         <button type="submit">Submit</button>
       </form>
+      </div>
     )
   }
 }
