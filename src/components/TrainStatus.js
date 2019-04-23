@@ -9,8 +9,8 @@ class TrainStatus extends React.Component {
         <h2 className="mt-4">{this.props.locationName}</h2>
         <div className="row">
           {this.props.trains.map((train, i) => (
-            <div className="col-lg-4 p-2">
-              <div key={`train-${i}`} className="results-group p-3 border rounded">
+            <div key={`train-${i}`} className="col-lg-4 p-2">
+              <div className="results-group p-3 border rounded">
                 <div className="row">
                   <div className="col-8 my-auto">
                     <span className={`train-line line-${train.Line}`}></span>
@@ -20,7 +20,6 @@ class TrainStatus extends React.Component {
                       :
                       <small>&nbsp;</small>
                     }
-
                     <h5 className="m-0">{train.DestinationName}</h5>
                   </div>
 
