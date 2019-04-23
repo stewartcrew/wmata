@@ -28,7 +28,10 @@ class App extends React.Component {
         <h4>Which station are you interested in?</h4>
         <Form getTrainStatus={this.getTrainStatus} />
         <TrainStatus trains={this.state.trains} locationName={this.state.locationName} />
-      </div>
+        <div className="mt-4">
+          <small>Data provided my Washington Metropolitan Area Transit Authority (<a href="https://www.wmata.com/" target="_blank" rel="noreferrer noopener">WMATA.com</a>)</small>
+        </div>
+    </div>
     );
   }
 }
